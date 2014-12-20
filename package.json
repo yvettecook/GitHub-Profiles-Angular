@@ -1,0 +1,29 @@
+{
+  "name": "GitHubProfilesAngular",
+  "version": "1.0.0",
+  "description": "Single page web app to search for GitHub profiles, and return info about that user",
+  "main": "index.js",
+  "dependencies": {
+    "rx": "^2.3.22"
+  },
+  "devDependencies": {
+    "jasmine-core": "^2.1.3",
+    "karma": "^0.12.28",
+    "karma-chrome-launcher": "^0.1.7",
+    "karma-jasmine": "^0.3.2",
+    "karma-phantomjs-launcher": "^0.1.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yvettecook/GitHub-Profiles-Angular.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yvettecook/GitHub-Profiles-Angular/issues"
+  },
+  "homepage": "https://github.com/yvettecook/GitHub-Profiles-Angular"
+}
