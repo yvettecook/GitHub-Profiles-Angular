@@ -3,9 +3,12 @@ githubUserSearch.controller('GitUserSearchController', function($scope, $resourc
   var searchResource = $resource('https://api.github.com/search/users');
 
   $scope.doSearch = function() {
-    $scope.searchResult = searchResource.get({
-      q: $scope.searchTerm
-    });
+    if($scope.searchTerm != ""){
+      $scope.searchResult = searchResource.get({
+        q: $scope.searchTerm
+      });
+      console.log('searching')
+    }
   };
 
 });
