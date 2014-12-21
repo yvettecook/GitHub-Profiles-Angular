@@ -13,8 +13,7 @@ githubUserSearch.controller('GitUserSearchController', function($scope) {
         "html_url": "https://github.com/stephenlloyd"
 
       }]
-    }
-    console.log("Hello, world");
+    };
   };
 
 });
